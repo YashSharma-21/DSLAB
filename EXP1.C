@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+
 
 void selectionSort(int a[],int n)
 {
@@ -27,7 +27,7 @@ int main()
 {
 	int a[100],i,n;
 
-	clrscr();
+	
 
 	printf("Enter number of elements ");
 	scanf("%d",&n);
@@ -44,7 +44,7 @@ int main()
 	printf("\nSecond largest is %d ",a[n-2]);
 
 
-	getch();
+	
 
 	return 0;
 }
